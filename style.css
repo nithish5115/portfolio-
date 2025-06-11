@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9980.jpg?semt=ais_hybrid&w=740");
+    background-size: contain;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 750;
+    color: #0d0c0c;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #ffffffb4;
+    color: rgb(10, 10, 10);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+header img {
+    width: 170px;
+    height: 240px;
+    border-radius: 6%;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.344);
+    margin: 10px;
+}
+
+.header-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.header-details h1 {
+    margin: 0;
+    font-size: 2.8em;
+    letter-spacing: 2px;
+}
+
+.header-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-details ul li {
+    margin: 5px 0;
+    font-size: 1.3em;
+}
+
+section {
+    margin: 50px 0;
+}
+
+.skills, .personal-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.skills div, .personal-details div {
+    background-color: rgba(255, 255, 255, 0.755);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.skills div:hover, .personal-details div:hover {
+    transform: translateY(-20px);
+}
+
+.skills h3, .personal-details h3 {
+    font-size: 2em;
+    color: #ee9529b4;
+    margin-top: 0;
+}
+
+.skills ul, .personal-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li, .personal-details ul li {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
